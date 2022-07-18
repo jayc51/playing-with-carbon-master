@@ -1,0 +1,35 @@
+@import './theme.scss';
+@import '~carbon-components/scss/globals/scss/styles.scss';
+
+@import '~carbon-components/scss/components/modal/modal';
+@import '~carbon-components/scss/components/data-table-v2/data-table-v2';
+@import '~carbon-components/scss/components/toolbar/toolbar';
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: "Roboto", sans-serif,
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+    monospace;
+}
+
+.my-data-table {
+  margin-bottom: $spacing-lg; 
+}
+
+// OVERRIDES
+
+.bx--modal {
+  padding: 5rem;
+  overflow: auto;
+  align-items: flex-start;
+}
+.bx--modal-container {
+  max-height: none;
+}

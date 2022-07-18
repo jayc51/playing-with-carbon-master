@@ -1,0 +1,93 @@
+///// Watson
+// Color Variables
+$brand-01: #17285d;
+$brand-02: #175d8d;
+$brand-03: #95c4f3;
+$inverse-01: #ffffff;
+$ui-01: #ffffff;
+$ui-02: #f6f6f6;
+$ui-03: #ececec;
+$ui-04: #c0bfc0;
+$ui-05: #595859;
+$text-01: #272727;
+$text-02: #595859;
+$text-03: #777677;
+$field-01: #ffffff;
+$support-01: #e62325;
+$support-02: #34bc6e;
+$support-03: #fed500;
+$support-04: #777677;
+$nav-01: #1b2834;
+$nav-02: #1c496d;
+
+
+// // Global
+// $input-border: 1px solid transparent !default;
+// $input-label-weight: 600 !default;
+
+// // Button Theme Variables
+// $button-font-weight: 600 !default;
+// $button-font-size: 0.875rem !default;
+$button-border-radius: 50rem;
+// $button-height: 40px !default;
+// $button-padding: 0 $spacing-md !default;
+// $button-padding-sm: 0 $spacing-xs !default;
+// $button-border-width: 2px !default;
+
+// // Accordion (Reverse)
+// $accordion-flex-direction: row !default;
+// $accordion-justify-content: flex-start !default;
+// $accordion-arrow-margin: 0 0 0 $spacing-2xs !default;
+// $accordion-title-margin: 0 0 0 $spacing-md !default;
+// $accordion-content-padding: 0 $spacing-md 0 $spacing-2xl !default;
+
+// // Card
+// $card-text-align: center !default;
+// $card-flex-align: center !default;
+
+// // Checkbox
+// $checkbox-border-width: 2px !default;
+
+// // Code Snippet
+// $snippet-background-color: $ui-01 !default;
+// $snippet-border-color: $ui-03 !default;
+
+// // Content Switcher
+// $content-switcher-border-radius: 8px !default;
+// $content-switcher-option-border: 1px solid $brand-01 !default;
+
+// // Data Table
+// $data-table-heading-transform: uppercase !default;
+// $data-table-heading-border-bottom: 1px solid $brand-01 !default;
+// $data-table-row-height: 2rem !default;
+
+// // Modal
+// $modal-border-top: $brand-01 4px solid !default;
+// $modal-footer-background-color: $ui-02 !default;
+
+// // Progress Indicator
+// $progress-indicator-bar-width: 1px inset transparent !default;
+// $progress-indicator-stroke-width: 5 !default;
+// $progress-indicator-line-offset: 0.625rem !default;
+
+// // Radio Button
+// $radio-border-width: 2px !default;
+
+// // Structured Theme Variables
+// $structured-list-padding: 2rem !default;
+// $structured-list-text-transform: none !default;
+
+// // Skeleton Loading
+// $skeleton: rgba($color__blue-51, 0.1) !default;
+
+
+
+.bx--btn--primary,
+.bx--btn--secondary,
+.bx--btn--tertiary,
+.bx--btn--danger,
+.bx--btn--sm {
+  &:focus {
+    outline: none;
+  }
+}
